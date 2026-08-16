@@ -25,7 +25,6 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-
 class QuestionRequest(BaseModel):
     question: str
 
